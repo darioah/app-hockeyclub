@@ -1,0 +1,53 @@
+body{
+background-color: rgb(12, 61, 11) !important ;
+}
+
+.menun{
+    background-color: rgb(27, 89, 16);
+    bottom: 0 !important; 
+    position: fixed;
+    
+    padding: 5%;
+    width: 100%;
+    display: flex;
+    
+    text-align: center;
+    
+    justify-content: space-between;
+    
+}
+ .menun li a i{
+     width: 15rem !important;
+    
+    
+}
+.vol_car{
+    padding: 15%;
+    
+}
+.card_cal{
+    margin: 15%;
+    background-color: aliceblue;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.card_cal{
+    width: 80%;
+
+}
+.card_body{
+margin: 15%;
+flex-direction: column;
+display: flex;
+text-align: center;
+justify-content: space-between;
+}
+.card_body a{
+    margin: 15px;
+}
+.infotable{
+    color: aliceblue;
+    padding-top: 15%;
+}
