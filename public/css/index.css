@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Bebas Neue', cursive;
+    background-image: url("https://album.mediaset.es/eimg/10000/2020/09/26/clipping_OVEab5_b883.jpg?w=1200&h=900");
+    /* background: rgb(63,94,251); */
+    /* background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,252,100,1) 100%);  margin: 10%; */
+    
+
+}
+
+/* Aqui en navbar de abajo  */
+.menu_estatico{
+   background:rgba(29, 14, 14, 0.829)  ;
+   bottom: 0!important; 
+   
+    position: fixed;
+    width: 100%;
+    height: 12%;
+   
+    font-family: 'Roboto', cursive;
+}
+
+.menun{
+ 
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    font-family: 'Roboto', cursive;
+    justify-content: space-between;
+    
+}
+ .menun li  {
+    text-decoration: none;
+    margin: 5%;
+    margin-right: 10%;
+     list-style: none;
+     bottom: 0 !important; 
+     font-family: 'Roboto', cursive;
+    }
+    a {
+        font-size:25px;
+        
+    }
+  
+.vol_car{
+    margin: 5%;
+    padding: 10%;
+    background-color: rgba(240, 248, 255, 0.276) ;
+    font-family: 'Roboto', cursive;
+    
+}
+.card_cal{
+   
+   
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    font-family: 'Roboto', cursive;
+}
+.card_cal{
+   margin: 15%;
+   font-family: 'Roboto', cursive;
+    background: rgba(234, 235, 240, 0.256);
+ 
+
+}
+
+.card_body{
+margin: 15%;
+flex-direction: column;
+display: flex;
+text-align: center;
+justify-content: space-between;
+font-family: 'Roboto', cursive;
+
+}
+.card_body a{
+    margin: 15px;
+}
+.infotable{
+    color: aliceblue;
+    padding-top: 15%;
+    margin: 5%;
+    border-radius: 10px;
+    font-family: 'Roboto', cursive;
+}
+img{
+    width: 60px;
+}
+
+
+td{
+    padding: 10px;
+    background-color:rgba(238, 240, 222, 0.216) ;
+    border: 5px;
+    border-color: rgb(28, 212, 212);
+}
+th{
+    background-color: black;
+}
+
+.yellow{
+    background-color: rgba(243, 251, 0, 0.761);
+    color: rgba(243, 251, 0, 0.761);
+    width: 100%;
+}
+.upcoming{
+    border-radius: 15px;
+    color: antiquewhite;
+    background: rgba(255, 255, 255, 0.156);
+    margin: 10%;
+    padding: 10%;
+    font-family: 'Roboto', cursive;
+
+}
+
+.pageheader{
+    text-align: center;
+    align-items: center;
+    color: aliceblue;
+    background-color:black ;
+    font-family: 'Roboto', cursive;
+}
+.bodycontent{
+    margin: 5%;
+}
+.container{
+    padding: 5%;
+    background-color: rgba(8, 67, 67, 0.612);
+    color: aliceblue;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 15px;
+    font-family: 'Roboto', cursive;
+
+}
+.session{
+    color: aliceblue;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20%;
+    background-color: rgba(64, 102, 140, 0.489);
+    padding-top: 45%;
+    padding-bottom: 50%;
+    margin: 5%;
+    font-family: 'Roboto', cursive;
+}
