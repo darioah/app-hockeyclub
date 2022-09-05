@@ -10,7 +10,7 @@ body{
     background-image: url("https://album.mediaset.es/eimg/10000/2020/09/26/clipping_OVEab5_b883.jpg?w=1200&h=900");
     /* background: rgb(63,94,251); */
     /* background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,252,100,1) 100%);  margin: 10%; */
-    
+   
 
 }
 
@@ -55,9 +55,12 @@ body{
     font-family: 'Roboto', cursive;
     
 }
+.card{
+    background-color: aqua;
+}
 .card_cal{
-   
-   
+    
+    
     flex-direction: column;
     display: flex;
     text-align: center;
@@ -79,10 +82,13 @@ display: flex;
 text-align: center;
 justify-content: space-between;
 font-family: 'Roboto', cursive;
-
+ background-color: aquamarine;
+ 
 }
-.card_body a{
-    margin: 15px;
+.card-body a{
+    margin: 25%;
+    font-size: 20px;
+   margin-bottom: 15%;
 }
 .infotable{
     color: aliceblue;
@@ -155,4 +161,35 @@ th{
     padding-bottom: 50%;
     margin: 5%;
     font-family: 'Roboto', cursive;
+}
+.car-car {
+padding-bottom: 25% ;
+}
+.stylized {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+fieldset{
+    background-color: rgba(240, 248, 255, 0.23);
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    display: block;
+   
+}
+.ro{
+    flex-direction: column;
+    text-align: center;
+    margin-left: 15%;
+   display: flex;
+
+    
+}
+.ro a{
+    font-size: 25px;
+}
+article{
+    
+    padding: 15%;
 }
